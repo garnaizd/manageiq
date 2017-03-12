@@ -6608,6 +6608,13 @@ taggings:
 tags:
 - id
 - name
+tarife:
+- id_tarife
+- variable_cost
+- fixed_cost
+- array_rates
+- title
+- description
 tenant_quotas:
 - id
 - tenant_id

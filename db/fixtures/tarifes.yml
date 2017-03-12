@@ -1,0 +1,19 @@
+---
+- id_tarife: 1
+  variable_cost: Money.new(0.335, 'EUR')
+  fixed_cost: Money.new(0.035, 'EUR')
+  array_rates: ["memory_usage"]
+  title: "Dolphin rate"
+  description: "Calculate CPU Showback"
+- id_tarife: 2
+  vaiable_cost: Money.new(0.435, 'EUR')
+  fixed_cost: Money.new(0.025, 'EUR')
+  array_rates: ["cpu_usage", "cpu_usagemhz"]
+  title: "Dolphin rate"
+  description: "Calculate CPU Showback" 
+- id_tarife: 3
+  variable_cost: Money.new(0.735, 'EUR')
+  fixed_cost: Money.new(0.055, 'EUR')
+  array_rates: ["disk_usage"]
+  title: "Dolphin rate"
+  description: "Calculate CPU Showback"
