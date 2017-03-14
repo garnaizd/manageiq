@@ -6464,6 +6464,12 @@ showback_configurations:
 - types
 - updated_at
 - created_at
+showback_rates:
+- rating
+- date
+- concept
+- created_at
+- updated_at
 snapshots:
 - id
 - uid
@@ -6608,13 +6614,13 @@ taggings:
 tags:
 - id
 - name
-tarife:
-- id_tarife
+tariffs:
 - variable_cost
 - fixed_cost
-- array_rates
 - title
 - description
+- created_at
+- updated_at
 tenant_quotas:
 - id
 - tenant_id

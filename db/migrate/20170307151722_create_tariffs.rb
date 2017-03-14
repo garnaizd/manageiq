@@ -1,10 +1,8 @@
-class CreateTarifes < ActiveRecord::Migration[5.0]
+class CreateTariffs < ActiveRecord::Migration[5.0]
   def up
-    create_table :tarifes do |t|
-      t.integer :id_tarife
+    create_table :tariffs do |t|
       t.money :variable_cost
       t.money :fixed_cost
-      t.string :array_rates
       t.string :title
       t.string :description
 
@@ -13,6 +11,6 @@ class CreateTarifes < ActiveRecord::Migration[5.0]
   end
 
   def down
-    drop_table :tarifes
+    drop_table :tariffs
   end
 end

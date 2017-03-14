@@ -30,6 +30,8 @@ class EvmDatabase
     ChargebackRateDetailCurrency
     ChargebackRate
     ShowbackConfiguration
+    Tariff
+    ShowbackRate
   ).freeze
 
   RAILS_ENGINE_MODEL_CLASS_NAMES = %w(MiqAeDatastore)
